@@ -1,0 +1,55 @@
+/* 1. Setup the background */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* A vibrant gradient makes the glass blur pop */
+    background: linear-gradient(45deg, #4158D0, #5CCB12, #FFCC70);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. The Glass Card */
+.card {
+    background: #518C8C;
+    border-radius: 20px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    color: #333;
+    border-top:  50px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 50px solid rgba(255, 255, 255, 0.2);
+}
+
+/* 3. The Image */
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes it a circle */
+    border: 3px solid white;
+    margin-bottom: 20px;
+    object-fit: cover; /* Prevents the photo from stretching */
+}
+
+/* 4. Text Styling */
+h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.title {
+    font-style: italic;
+    opacity: 0.9;
+    color: white;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    opacity: 0.8;
+    color: white;
+}
